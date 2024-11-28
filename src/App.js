@@ -23,7 +23,6 @@ const App = () => {
 	};
 
 	useEffect(() => {
-		console.log("City updated to:", city);
 		fetchWeather(city);
 	}, [city]);  
 
@@ -35,7 +34,7 @@ const App = () => {
 				{weatherData && <WeatherCard data={weatherData} />}
 				{error && <p className="error-message">{error}</p>}
 			</div>
-			</div>
+		</div>
 		);
 };
 

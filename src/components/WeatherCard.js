@@ -9,17 +9,16 @@ const WeatherCard = ({ data }) => {
     const date = new Date(data.dt * 1000);
     const dayOfWeek = date.toLocaleString("en-us", { weekday: "long" });
 
-
     return (
         <div className="weather-card"> 
             <div className="weather-left">
                 <div className='day-of-week-info'>
-                <p className="day-of-week">{dayOfWeek}</p>
-                <img
+                    <p className="day-of-week">{dayOfWeek}</p>
+                    <img
                         src={`http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`}
                         alt={data.weather[0].description}
                         className="weather-icon"
-                    />
+                        />
                 </div>
                 <div className="city-info">
                     <h2>{data.name}</h2>
