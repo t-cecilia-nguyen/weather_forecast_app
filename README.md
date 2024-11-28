@@ -16,3 +16,21 @@ This weather forecasting application provides real-time weather data, including 
 ## Screenshots
 
 ### 1. Home Screen
+![Home Screen](https://github.com/t-cecilia-nguyen/100749684_comp3123_labtest2/blob/main/src/assets/comp3123_labtest2_home.png)
+This is the home screen where users can input their city name and view the current weather conditions. Default is Toronto.
+
+### 2. Search Result for Denizli
+![Search Result for Denizli](https://github.com/t-cecilia-nguyen/100749684_comp3123_labtest2/blob/main/src/assets/comp3123_labtest2_denizli.png)
+Shows the weather forecast for Denizli.
+
+### 3. Error Message
+![Detailed Weather Info](https://github.com/t-cecilia-nguyen/100749684_comp3123_labtest2/blob/main/src/assets/comp3123_labtest2_error.png)
+Display an error message when user enters an invalid city.
+
+### 4. Postman for Toronto
+![Postman for Toronto](https://github.com/t-cecilia-nguyen/100749684_comp3123_labtest2/blob/main/src/assets/comp3123_labtest2_postman_toronto.png)
+Screenshot displaying results of API call made from Postman to fetch data for Toronto.
+
+### 5. Postman for Hanoi
+![Postman for Hanoi](https://github.com/t-cecilia-nguyen/100749684_comp3123_labtest2/blob/main/src/assets/comp3123_labtest2_postman_hanoi.png)
+Screenshot displaying results of API call made from Postman to fetch data for Hanoi.
