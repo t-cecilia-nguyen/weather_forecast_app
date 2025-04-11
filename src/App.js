@@ -8,7 +8,7 @@ const App = () => {
 	const [weatherData, setWeatherData] = useState(null);
 	const [city, setCity] = useState("Toronto");
 	const [error, setError] = useState('');
-	const API_KEY = "def450937f6c9c7fe5fe3f220dfa3013";
+	const API_KEY = process.env.WEATHER_API_KEY;
 
 	const fetchWeather = async (city) => {
 		try {
